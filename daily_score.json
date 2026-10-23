@@ -1,0 +1,27 @@
+{
+  "metadata": {
+    "device_id": "GML-TABLET-050",
+    "driver_id": "CHAUFFEUR-LYON-01",
+    "generated_at": "2026-10-23T13:29:14.441362+00:00",
+    "sampling_rate_hz": 1
+  },
+  "summary": {
+    "total_records_analyzed": 10,
+    "harsh_braking_events_count": 1,
+    "safety_score": 90,
+    "score_category": "EXCELLENT (Bonus 20% Validé)",
+    "insurance_bonus_eligible": true
+  },
+  "detected_events": [
+    {
+      "event_type": "HARSH_BRAKING",
+      "timestamp": 1678880005,
+      "formatted_time": "11:33:25 UTC",
+      "acc_x": 0.25,
+      "acc_y": -3.45,
+      "acc_z": 9.65,
+      "deceleration_m_s2": 3.45,
+      "severity": "HIGH"
+    }
+  ]
+}
